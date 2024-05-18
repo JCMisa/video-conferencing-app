@@ -5,10 +5,12 @@ import { cn } from '@/lib/utils';
 import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation'
+import { useRouter } from 'next/navigation';
 import React from 'react'
 
 const Sidebar = () => {
     const pathname = usePathname();
+    const router = useRouter();
   return (
     <section className='sticky left-0 top-0 flex h-screen w-fit flex-col justify-between bg-dark-1 p-6 pt-28 text-white max-sm:hidden 
     lg:w-[264px]'>
@@ -32,6 +34,8 @@ const Sidebar = () => {
                     </Link>
                 )
             })]}
+
+            <button className='text-sm hover:bg-blue-1 py-5 rounded transition-all' onClick={() => router.back()}>Go Back</button>
         </div>
     </section>
   )

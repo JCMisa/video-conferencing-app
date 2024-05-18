@@ -59,6 +59,11 @@ const config = {
       },
       backgroundImage: {
         hero: "url('/images/hero-background.png')",
+        setup: "url(/images/setup-background.jpg)",
+        building: "url(/images/building-background-darken.webp)",
+        bike: "url(/images/bike-background.gif)",
+        running: "url(/images/running-background.gif)",
+        lighthouse: "url(/images/lighthouse-background.gif)",
       },
     },
   },

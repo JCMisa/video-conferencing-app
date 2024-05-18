@@ -11,6 +11,8 @@ const Upcoming = () => {
       <CallList
         type="upcoming"
       />
+
+      <div className='bg-running bg-no-repeat bg-cover absolute bottom-0 right-5 lg:w-[950px] sm:w-[500px] lg:h-[550px] sm:h-[300px] z-[-2]'></div>
     </section>
   )
 }

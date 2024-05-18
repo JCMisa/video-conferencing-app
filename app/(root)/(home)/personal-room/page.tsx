@@ -65,6 +65,7 @@ const PersonalRoom = () => {
           Copy Invitation
         </Button>
       </div>
+      <div className='bg-building bg-no-repeat bg-cover absolute bottom-0 right-0 w-[70%] h-[400px] z-[-2]'></div>
     </section>
   )
 }

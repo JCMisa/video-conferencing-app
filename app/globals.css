@@ -116,3 +116,13 @@
     width: 100%;
   }
 }
+
+@media (max-width: 640px) {
+  .recording-bg {
+    display: none;
+  }
+
+  .recording-text {
+    display: block;
+  }
+}
